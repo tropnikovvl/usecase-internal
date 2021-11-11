@@ -7,3 +7,4 @@
 3) helm install -n dev -f values.yaml stolon .
 
 kubectl --namespace ingress-nginx get services -o wide -w nginx-ingress-nginx-controller
+helm upgrade -i -n ingress-nginx -f values.yaml nginx .
