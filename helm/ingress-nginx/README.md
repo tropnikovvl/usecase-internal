@@ -177,8 +177,8 @@ controller:
         networking.gke.io/load-balancer-type: "Internal"
         # For earlier versions
         # cloud.google.com/load-balancer-type: "Internal"
-        
-        # Any other annotation can be declared here. 
+
+        # Any other annotation can be declared here.
 ```
 
 Example for Azure:

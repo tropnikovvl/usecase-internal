@@ -116,7 +116,13 @@ keeper:
   uid_prefix: "keeper"
   replicaCount: 2
   annotations: {}
-  resources: {}
+  resources:
+    limits:
+      cpu: 100m
+      memory: 128Mi
+    requests:
+      cpu: 100m
+      memory: 128Mi
   priorityClassName: ""
   fsGroup: ""
   service:
@@ -145,7 +151,13 @@ keeper:
 proxy:
   replicaCount: 2
   annotations: {}
-  resources: {}
+  resources:
+    limits:
+      cpu: 100m
+      memory: 128Mi
+    requests:
+      cpu: 100m
+      memory: 128Mi
   priorityClassName: ""
   service:
     type: ClusterIP
@@ -175,7 +187,13 @@ proxy:
 sentinel:
   replicaCount: 2
   annotations: {}
-  resources: {}
+  resources:
+    limits:
+      cpu: 100m
+      memory: 128Mi
+    requests:
+      cpu: 100m
+      memory: 128Mi
   priorityClassName: ""
   nodeSelector: {}
   affinity: {}

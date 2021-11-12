@@ -1,0 +1,15 @@
+dependencies:
+- name: victoria-metrics-operator
+  repository: https://victoriametrics.github.io/helm-charts
+  version: 0.4.2
+- name: kube-state-metrics
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 3.5.2
+- name: prometheus-node-exporter
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 2.1.0
+- name: grafana
+  repository: https://grafana.github.io/helm-charts
+  version: 6.16.14
+digest: sha256:7c2d5094a0e988d07ee16ed5283c3bf43002476c49cf0bdf2d3ab15b91835562
+generated: "2021-11-10T05:30:33.678382139Z"
